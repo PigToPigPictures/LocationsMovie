@@ -1,1 +1,36 @@
-/* Styles go here */
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000; /* Black background for contrast */
+  color: #fff; /* White text for readability */
+  text-align: center;
+}
+
+/* Header Styles */
+header {
+  padding: 20px;
+  background-color: #333; /* Dark grey header */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+main p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Footer Styles */
+footer {
+  padding: 10px;
+  background-color: #222; /* Slightly darker footer */
+  font-size: 0.9rem;
+}
