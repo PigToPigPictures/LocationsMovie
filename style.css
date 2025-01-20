@@ -26,8 +26,69 @@ body.contact {
   background-size: cover;
 }
 
-/* Other Styles (e.g., header, footer, nav) */
+/* Header Styles */
 header {
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.7); /* Transparent black */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* Navigation Styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Gallery Styles */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7); /* Transparent black */
+  font-size: 0.9rem;
+  text-align: center;
 }
