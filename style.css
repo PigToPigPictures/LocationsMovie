@@ -1,11 +1,13 @@
 /* General Styles */
 body {
   margin: 0;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  padding: 0;
+  font-family: Arial, sans-serif;
   color: white;
-  text-align: center;
-  background: url('assets/gifs/default-background.gif') no-repeat center center fixed;
-  background-size: cover;
+  background: url('assets/gifs/EZ.gif') no-repeat center center fixed; /* Replace with your image/GIF */
+  background-size: cover; /* Ensures full-screen coverage */
+  height: 100vh; /* Full viewport height */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 /* Page-Specific Backgrounds */
