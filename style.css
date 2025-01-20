@@ -4,7 +4,7 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
   color: white;
-  background: url('assets/gifs/EZ.gif') no-repeat center center fixed; /* Replace with your image/GIF */
+  background: url('assets/images/gifs/EZ.gif') no-repeat center center fixed; /* Replace with your image/GIF */
   background-size: cover; /* Ensures full-screen coverage */
   height: 100vh; /* Full viewport height */
   overflow-x: hidden; /* Prevent horizontal scrolling */
