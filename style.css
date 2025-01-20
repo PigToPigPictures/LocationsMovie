@@ -25,7 +25,8 @@ body.contact {
 }
 /* Header Styles */
 header {
-  position: absolute; /* Keep it on top of the page */
+  header {
+  position: fixed; /* Ensures the header stays visible */
   top: 0;
   left: 0;
   width: 100%;
