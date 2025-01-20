@@ -2,35 +2,32 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #000; /* Black background for contrast */
-  color: #fff; /* White text for readability */
-  text-align: center;
+  color: white;
 }
 
-/* Header Styles */
+/* Background GIF Styles */
+body {
+  background: url('assets/gifs/default-background.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+
+body.about {
+  background: url('assets/gifs/about-background.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+
+body.gallery {
+  background: url('assets/gifs/gallery-background.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+
+body.contact {
+  background: url('assets/gifs/contact-background.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Other Styles (e.g., header, footer, nav) */
 header {
   padding: 20px;
-  background-color: #333; /* Dark grey header */
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2.5rem;
-}
-
-/* Main Content */
-main {
-  padding: 20px;
-}
-
-main p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-}
-
-/* Footer Styles */
-footer {
-  padding: 10px;
-  background-color: #222; /* Slightly darker footer */
-  font-size: 0.9rem;
+  background-color: rgba(0, 0, 0, 0.7); /* Transparent black */
 }
