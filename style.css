@@ -74,7 +74,12 @@ body.synopsis {
   background: url('assets/images/gifs/EZ.gif') no-repeat center center fixed;
   background-size: cover; /* Ensures the GIF fills the entire page */
 }
-
+/* Add padding to all <p> tags on the Synopsis page */
+body.synopsis p {
+  padding: 20px; /* Adds padding around the text */
+  margin: 0 auto; /* Centers the text block if needed */
+  max-width: 800px; /* Optional: Limits the width of the text for readability */
+}
 /* Synopsis Page Styles */
 main {
   padding-top: 50vh; /* Pushes the content halfway down the viewport */
