@@ -77,9 +77,12 @@ body.synopsis {
 
 /* Synopsis Page Styles */
 main {
-  padding: 40px 20px; /* Adds padding around the main content */
-  text-align: center; /* Centers all text */
+  padding-top: 50vh; /* Pushes the content halfway down the viewport */
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
   color: white;
+  color: black;
 }
 
 section {
