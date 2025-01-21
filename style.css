@@ -68,4 +68,28 @@ footer {
   font-size: 0.9rem;
   z-index: 10;
 }
+/* Page-Specific Background for Synopsis */
+body.synopsis {
+  background: url('assets/gifs/synopsis-background.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Synopsis Page Styles */
+main {
+  padding: 40px 20px; /* Adds padding around the main content */
+  text-align: center; /* Centers all text */
+  color: white;
+}
+
+section {
+  margin-bottom: 40px; /* Adds space between sections */
+}
+
+section img {
+  max-width: 80%; /* Ensures the image doesn't overflow the page */
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px; /* Optional: Makes images slightly rounded */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Optional: Adds a shadow for depth */
+}
 
