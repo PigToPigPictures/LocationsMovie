@@ -82,7 +82,7 @@ body.synopsis p {
 }
 /* Synopsis Page Styles */
 main {
-  padding-top: 50vh; /* Pushes the content halfway down the viewport */
+  padding-top: 35vh; /* Pushes the content halfway down the viewport */
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
