@@ -69,9 +69,10 @@ footer {
   z-index: 10;
 }
 /* Page-Specific Background for Synopsis */
+/* Page-Specific Background for Synopsis */
 body.synopsis {
-  background: url('assets/gifs/synopsis-background.gif') no-repeat center center fixed;
-  background-size: cover;
+  background: url('assets/images/gifs/EZ.gif') no-repeat center center fixed;
+  background-size: cover; /* Ensures the GIF fills the entire page */
 }
 
 /* Synopsis Page Styles */
